@@ -1,0 +1,39 @@
+Error occurs time: 2017-01-15 20:40:25
+current sql is:insert into bdzd_master(questionID, askTitle, qContent, askDate, answer,answerDate, good, bad, adoptRate, answerType, crawlDate, cur_key, cur_alias) values('618885352134808092', '姓位的起什么名字好听男孩 ', '
+姓'位的起什么名字好听男孩', '2015-9-2', '', '', 0, 0, '0.0', '', now(), '安农', 'ahau')
+Traceback (most recent call last):
+  File "/home/mint/postgraduate/xwf/spiderWithQuestion/commonFun.py", line 101, in insert
+    cur.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 226, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorvalue
+ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\xe4\xbd\x8d\xe7\x9a\x84\xe8\xb5\xb7\xe4\xbb\x80\xe4\xb9\x88\xe5\x90\x8d\xe5\xad\x97\xe5\xa5\xbd\xe5\x90\xac\xe7\x94\xb7\xe5\xad\xa9', '2015-9-2', '', '', 0, 0, '0.0', '', now(), ' at line 1")
+program will stop immediately ...
+
+Error occurs time: 2017-06-21 11:12:59
+current sql is:insert into bdzd_master(questionID, askTitle, qContent, askDate, answer,answerDate, good, bad, adoptRate, answerType, crawlDate, cur_key, cur_alias) values('618885352134808092', '姓位的起什么名字好听男孩 ', '
+姓'位的起什么名字好听男孩', '2015-9-2', '', '', 0, 0, '0.0', '', now(), '安农', 'ahau')
+Traceback (most recent call last):
+  File "/home/mint/postgraduate/xwf/spiderWithQuestion/commonFun.py", line 101, in insert
+    cur.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 226, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorvalue
+ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\xe4\xbd\x8d\xe7\x9a\x84\xe8\xb5\xb7\xe4\xbb\x80\xe4\xb9\x88\xe5\x90\x8d\xe5\xad\x97\xe5\xa5\xbd\xe5\x90\xac\xe7\x94\xb7\xe5\xad\xa9', '2015-9-2', '', '', 0, 0, '0.0', '', now(), ' at line 1")
+program will stop immediately ...
+
+Error occurs time: 2017-06-22 07:05:00
+current sql is:insert into bdzd_master(questionID, askTitle, qContent, askDate, answer,answerDate, good, bad, adoptRate, answerType, crawlDate, cur_key, cur_alias) values('618885352134808092', '姓位的起什么名字好听男孩 ', '
+姓'位的起什么名字好听男孩', '2015-9-2', '', '', 0, 0, '0.0', '', now(), '安农', 'ahau')
+Traceback (most recent call last):
+  File "/home/mint/postgraduate/xwf/spiderWithQuestion/commonFun.py", line 101, in insert
+    cur.execute(sql)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 226, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorvalue
+ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\xe4\xbd\x8d\xe7\x9a\x84\xe8\xb5\xb7\xe4\xbb\x80\xe4\xb9\x88\xe5\x90\x8d\xe5\xad\x97\xe5\xa5\xbd\xe5\x90\xac\xe7\x94\xb7\xe5\xad\xa9', '2015-9-2', '', '', 0, 0, '0.0', '', now(), ' at line 1")
+program will stop immediately ...
+
